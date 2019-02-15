@@ -7,6 +7,8 @@ from fir.config.base import *
 DEBUG = True
 TEMPLATES[0]['OPTIONS']['debug'] = True
 
+ALLOWED_HOSTS=["0.0.0.0","127.0.0.1","localhost"]
+
 # Sqlite3 database backend
 DATABASES = {
     'default': {
